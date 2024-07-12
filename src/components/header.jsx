@@ -2,7 +2,7 @@ import { useState } from 'react';
 import logo from '../../public/assets/img/header/logo.svg'; 
 
 function Header() {
-    const [isNavOpen, setIsNavOpen] = useState(true);
+    const [isNavOpen, setIsNavOpen] = useState(false);
 
     const toggleNav = () => {
         setIsNavOpen(!isNavOpen);
